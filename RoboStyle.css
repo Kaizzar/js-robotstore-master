@@ -1,0 +1,90 @@
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+body{
+  background-color: #15B6B6;
+}
+
+
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+nav ul li {
+    display: block;
+}
+nav ul li > a {
+    text-decoration:none;
+}
+nav ul li > a:hover {
+    text-decoration:underline;
+}
+.backgroundgradient {
+    background-color: #070707;
+}
+.navlink {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 20px;
+    float: left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+#welcomeimage img {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-height: 300px;
+    max-width: 100%;
+    width: auto;
+}
+#welcometext { column-count: 2;
+    font-size: 1.2em;
+}
+
+fieldset {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: none;
+}
+
+.threecol { column-count: 3;column-gap: 10px;
+}
+
+.headerlogo img {
+    height: auto;
+    margin-left: -8px;
+    margin-top: -8px;
+    max-height: 150px;
+    max-width: 100%;
+    width: auto;
+}
+
+#headername {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+.searchbox {
+    position: absolute;
+    right: 1%;
+}
+footer {
+    position: relative;
+    top: 33px;
+}
